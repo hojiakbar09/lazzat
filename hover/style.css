@@ -1,0 +1,233 @@
+/* Rang kodlari
+f0932b - olovrang
+7ed6df - och ko'k
+ff7979 - och qizil
+badc58 - yashil */
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.body {
+  font-family: "Comfortaa", cursive;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.navbar-box {
+  background-image: url("./img/chef-icon\ \(4\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 180px;
+  width: 350px;
+  height: 190px;
+  background-position: 0 center;
+  display: flex;
+  flex-wrap: wrap;
+  background-position-x: center;
+  background-position-y: top;
+}
+
+.navbar-nav {
+  margin-top: 40px;
+height: 140px;
+}
+
+.navbar-title {
+  text-align: center;
+  margin-left: 20px;
+  font-size: 60px;
+}
+
+.navbar-text {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.header {
+  border-top: 3px solid rgb(108, 108, 108);
+  border-bottom: 3px solid rgb(108, 108, 108);
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-item {
+  padding: 20px 10px;
+  transition: 0.3s;
+}
+
+.header-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header-link {
+  color: #555;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.main-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-item {
+  width: 30%;
+  margin: 30px 0;
+}
+
+.main-img {
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+.main-title {
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-title:hover {
+  color: #ff7979;
+}
+
+.main-link {
+  background-color: #f0932b;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.main-lin {
+  background-color: #7ed6df;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.main-li {
+  background-color: #ff7979;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.main-l {
+  background-color: #badc58;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-link {
+  border: 3px solid #ff7979;
+  padding: 15px 20px;
+  border-radius: 2px;
+  color: #ff7979;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.box-link:hover {
+  background-color: #ff7979;
+  color: white;
+}
+
+.footer {
+  margin-top: 50px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./img/photo_2021-11-28_02-55-05.jpg");
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 250px;
+}
+
+.input {
+  width: 400px;
+  padding: 10px 20px;
+  outline: none;
+}
+
+.button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #ff7979;
+  border: none;
+  border-radius: 2px;
+  border: 2px solid #ff7979;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-text {
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
